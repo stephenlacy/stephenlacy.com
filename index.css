@@ -10,7 +10,7 @@ body { width: 100vw; height: 100vh; color: #fff; font-family: -apple-system, Bli
 
 .navbar { width: 100%; height: 80px; padding: 16px; display: flex; z-index: 4; }
 
-.navbar .logo { color: #00bedc; text-decoration: none; font-size: 2rem; line-height: 2rem; }
+.navbar .logo { color: white; text-decoration: none; font-size: 4rem; line-height: 2rem; margin: 32px; }
 
 .navbar .nav-button { position: relative; display: flex; height: 50px; width: 64px; background: transparent; border: none; outline: none; flex-direction: column; z-index: 2; margin-left: auto; align-items: flex-end; cursor: pointer; }
 
