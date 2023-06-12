@@ -1,10 +1,11 @@
 {
   "scripts": {
-    "css": "node-sass css/index.sass ./index.css --watch --output-style compact",
+    "build": "sass css/index.sass ./index.css",
+    "css": "sass css/index.sass ./index.css --watch",
     "watch": "live-server"
   },
   "devDependencies": {
     "live-server": "^1.2.0",
-    "node-sass": "^7.0.0"
+    "sass": "^1.63.3"
   }
 }
